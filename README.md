@@ -16,18 +16,22 @@ Descrições Cativantes:
 
 Cada imagem é acompanhada por uma descrição cativante, fornecendo informações interessantes e curiosidades sobre o local retratado.
 As descrições são apresentadas de forma concisa e atraente, incentivando os usuários a se envolverem com o conteúdo.
+
 Design Responsivo:
 
 O layout da página é totalmente responsivo, garantindo uma experiência consistente em dispositivos desktop, tablets e smartphones.
 A utilização de HTML, LESS e JavaScript contribui para um design moderno e elegante, proporcionando uma experiência de usuário fluida.
+
 Interação Dinâmica:
 
 Recursos interativos, como a capacidade de compartilhar imagens nas redes sociais, proporcionam uma experiência social aos usuários.
 Os efeitos dinâmicos implementados com JavaScript adicionam um toque moderno e agradável à navegação.
+
 Fácil Personalização:
 
 O código-fonte em HTML, LESS e JavaScript é estruturado de maneira modular, facilitando a personalização e a adição de novos destinos à página.
 Instruções claras e documentação detalhada estão incluídas para auxiliar outros desenvolvedores na contribuição e extensão do projeto.
+
 Como Contribuir:
 O projeto "Explorador do Mundo" é de código aberto e incentiva a participação da comunidade. Se você deseja contribuir, sinta-se à vontade para fazer um fork do repositório, realizar melhorias ou adicionar novos recursos, e enviar um pull request. Toda contribuição é bem-vinda!
 
