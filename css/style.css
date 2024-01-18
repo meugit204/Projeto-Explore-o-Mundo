@@ -260,6 +260,57 @@ header .container .menu-descktop ul li .buscar i {
   font-size: 16px;
   margin-right: 10px;
 }
+@media screen and (max-width: 750px) {
+  header .container .menu-descktop {
+    display: none;
+  }
+}
+header .container .mobile {
+  display: none;
+  float: right;
+  z-index: 3;
+}
+header .container .mobile h3 {
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  position: relative;
+  z-index: 5;
+  padding: 30px;
+}
+header .container .mobile ul {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 70px 0 30px 0;
+  top: 0;
+  background-color: #0b141d;
+  display: none;
+  text-align: center;
+  z-index: 4;
+}
+header .container .mobile li {
+  padding: 30px 0;
+  z-index: 4;
+}
+header .container .mobile a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  z-index: 3;
+  text-transform: uppercase;
+}
+header .container .mobile .btn-nav {
+  border: 1px solid #fff;
+  padding: 4px 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+@media screen and (max-width: 750px) {
+  header .container .mobile {
+    display: block;
+  }
+}
 header .container .title-header {
   height: 100%;
   position: relative;
@@ -283,6 +334,21 @@ header .container .title-header .center h1 {
   text-transform: uppercase;
   text-align: center;
 }
+@media screen and (max-width: 619px) {
+  header .container .title-header .center h1 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 505px) {
+  header .container .title-header .center h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 327px) {
+  header .container .title-header .center h1 {
+    font-size: 1.6em;
+  }
+}
 header .container .title-header .center p {
   color: #FFF;
   text-align: center;
@@ -294,6 +360,16 @@ header .container .title-header .center p {
   text-transform: uppercase;
   z-index: 3;
   margin-top: 20px;
+}
+@media screen and (max-width: 327px) {
+  header .container .title-header .center p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 750px) {
+  header .container {
+    padding-top: 0;
+  }
 }
 .explore {
   padding: 30px 0;
@@ -317,6 +393,11 @@ header .container .title-header .center p {
   width: 100%;
   max-width: 500px;
   margin: 20px auto 0 auto;
+}
+@media screen and (max-width: 750px) {
+  .explore .container .explore-title {
+    padding: 0 10px;
+  }
 }
 .explore .container .explore-imgs {
   display: flex;
@@ -357,6 +438,12 @@ header .container .title-header .center p {
   line-height: 30px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 750px) {
+  .explore .container .explore-imgs .box01 {
+    width: 100%;
+    height: 320px;
+  }
+}
 .explore .container .explore-imgs .box02 {
   height: 480px;
   background-color: #ccc;
@@ -391,6 +478,12 @@ header .container .title-header .center p {
   line-height: 30px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 750px) {
+  .explore .container .explore-imgs .box02 {
+    width: 100%;
+    height: 320px;
+  }
+}
 .explore .container .explore-imgs .box03 {
   height: 480px;
   background-color: #ccc;
@@ -424,6 +517,12 @@ header .container .title-header .center p {
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+}
+@media screen and (max-width: 750px) {
+  .explore .container .explore-imgs .box03 {
+    width: 100%;
+    height: 320px;
+  }
 }
 .explore .container .saiba-mais {
   pad: 30px 0;
@@ -469,6 +568,11 @@ header .container .title-header .center p {
   max-width: 500px;
   margin: 20px auto 0 auto;
 }
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-title {
+    padding: 0 10px;
+  }
+}
 .jornal .container .jornal-imgs {
   display: flex;
   flex-wrap: wrap;
@@ -483,6 +587,16 @@ header .container .title-header .center p {
 .jornal .container .jornal-imgs .box01 .img img {
   width: 100%;
   object-fit: cover;
+}
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-imgs .box01 .img img {
+    object-fit: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-imgs .box01 .img {
+    height: auto;
+  }
 }
 .jornal .container .jornal-imgs .box01 .img-sobre p {
   color: #FFF;
@@ -517,6 +631,11 @@ header .container .title-header .center p {
   max-width: 450px;
   margin: 10px auto 0 auto;
 }
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-imgs .box01 {
+    width: 100%;
+  }
+}
 .jornal .container .jornal-imgs .box02 {
   border: 20px solid #000;
 }
@@ -526,6 +645,16 @@ header .container .title-header .center p {
 .jornal .container .jornal-imgs .box02 .img img {
   width: 100%;
   object-fit: cover;
+}
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-imgs .box02 .img img {
+    object-fit: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-imgs .box02 .img {
+    height: auto;
+  }
 }
 .jornal .container .jornal-imgs .box02 .img-sobre p {
   color: #FFF;
@@ -559,6 +688,11 @@ header .container .title-header .center p {
   width: 100%;
   max-width: 450px;
   margin: 10px auto 0 auto;
+}
+@media screen and (max-width: 750px) {
+  .jornal .container .jornal-imgs .box02 {
+    width: 100%;
+  }
 }
 .jornal .container .saiba-mais {
   pad: 30px 0;
@@ -599,6 +733,11 @@ footer .container p {
   font-style: normal;
   text-transform: capitalize;
 }
+@media screen and (max-width: 750px) {
+  footer .container p span {
+    display: none;
+  }
+}
 footer .container nav {
   padding: 0 20px;
 }
@@ -613,4 +752,11 @@ footer .container nav ul li a {
   font-size: 16px;
   font-style: normal;
   text-transform: capitalize;
+}
+@media screen and (max-width: 750px) {
+  footer .container {
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+  }
 }
