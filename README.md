@@ -42,7 +42,7 @@ Abra o arquivo index.html em seu navegador preferido.
 Explore, descubra e compartilhe as maravilhas do mundo!
 
 
-![Texto Alternativo](https://github.com/meugit204/imagens/blob/66e4b94faaf66391b505515de6e9b15ac7aab79c/lista%20de%20compras.png)
+![Texto Alternativo](https://github.com/meugit204/imagens/blob/188dc8cb9bd1e36e57ffc08a888ab93f7d9fb67e/explore-0-mundo.png)
 
  
  
