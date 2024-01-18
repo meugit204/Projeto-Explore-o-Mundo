@@ -48,7 +48,7 @@ Explore, descubra e compartilhe as maravilhas do mundo!
  
 ## 🚀 Skills
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,javacript,less,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,scss,git)](https://skillicons.dev)
 
 ## 🖍 Design
 
