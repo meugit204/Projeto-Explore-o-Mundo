@@ -1,0 +1,499 @@
+// imports
+@import 'reset';
+
+// header   
+header {
+    height: 700px;
+    position: relative;
+    background-color: aqua;
+
+    .escurecer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #0000008c;
+        z-index: 2;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .container {
+        padding: 30px 0;
+        height: 100%;
+
+        .menu-descktop {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                li {
+                    z-index: 3;
+
+                    a {
+                        color: #FFF;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+
+                    .local {
+                        i {
+                            color: #fff;
+                            font-size: 40px;
+                        }
+                    }
+
+                    .buscar {
+                        i {
+                            color: #fff;
+                            font-size: 16px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .title-header {
+            height: 100%;
+            position: relative;
+
+            .center {
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 3;
+
+                h1 {
+                    color: #FFF;
+                    z-index: 3;
+                    font-family: "Playfair Display", serif;
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+                p {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    z-index: 3;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+// Explore
+.explore {
+    padding: 30px 0;
+
+    .container {
+
+        .explore-title {
+            h2 {
+                color: #FFF;
+                text-align: center;
+                font-family: "Open Sans";
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            p {
+                color: #FFF;
+                text-align: center;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-style: normal;
+                line-height: 30px;
+                width: 100%;
+                max-width: 500px;
+                margin: 20px auto 0 auto;
+            }
+        }
+
+        .explore-imgs {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+
+            .box01 {
+                height: 480px;
+                background-color: #ccc;
+                border: 20px solid #000;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 20px 0;
+                background-image: url(../imagens/section02-img01.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                h3 {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .box02 {
+                height: 480px;
+                background-color: #ccc;
+                border: 20px solid #000;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 20px 0;
+                background-image: url(../imagens/section02-img02.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                h3 {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .box03 {
+                height: 480px;
+                background-color: #ccc;
+                border: 20px solid #000;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 20px 0;
+                background-image: url(../imagens/section02-img03.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                h3 {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .saiba-mais {
+            pad: 30px 0;
+            text-align: center;
+
+            a {
+                color: #B9C8FF;
+                text-align: center;
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 30px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+// Jornal
+.jornal {
+    padding: 30px 0;
+    margin-top: 30px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .jornal-title {
+            h2 {
+                color: #FFF;
+                text-align: center;
+                font-family: "Open Sans";
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+            }
+
+            p {
+                color: #FFF;
+                text-align: center;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-style: normal;
+                line-height: 30px;
+                width: 100%;
+                max-width: 500px;
+                margin: 20px auto 0 auto;
+            }
+        }
+
+        .jornal-imgs {
+            display: flex;
+            flex-wrap: wrap;
+
+            margin-top: 60px;
+
+            .box01 {
+                border: 20px solid #000;
+
+                .img {
+
+                    height: 300px;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .img-sobre {
+                    p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-transform: capitalize;
+                    }
+
+                    h3 {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px;
+                        text-transform: capitalize;
+                        padding: 20px 0;
+                    }
+
+                    p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;
+                        width: 100%;
+                        max-width: 450px;
+                        margin: 10px auto 0 auto;
+                    }
+                }
+            }
+
+            .box02 {
+                border: 20px solid #000;
+
+                .img {
+
+                    height: 300px;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .img-sobre {
+                    p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-transform: capitalize;
+                    }
+
+                    h3 {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px;
+                        text-transform: capitalize;
+                        padding: 20px 0;
+                    }
+
+                    p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;
+                        width: 100%;
+                        max-width: 450px;
+                        margin: 10px auto 0 auto;
+                    }
+                }
+            }
+        }
+
+        .saiba-mais {
+            pad: 30px 0;
+            text-align: center;
+            margin-top: 40px;
+
+            a {
+                color: #B9C8FF;
+                text-align: center;
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 30px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// Paissagem
+.paissagem {
+
+    .container {
+        height: 500px;
+        background-image: url(../imagens/bg-footer.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+// Footer
+footer {
+    margin-top: 20px;
+
+    .container {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            text-transform: capitalize;
+        }
+
+        nav {
+            padding: 0 20px;
+
+            ul {
+                display: flex;
+                gap: 30px;
+
+                li {
+
+                    a {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-style: normal;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
