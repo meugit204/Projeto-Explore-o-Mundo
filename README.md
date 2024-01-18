@@ -8,7 +8,7 @@ O projeto "Explorador do Mundo" é uma página web moderna que convida os usuár
 
 **Recursos Principais:**
 
-Galeria de Imagens:##
+Galeria de Imagens:
 
 Uma galeria visualmente atraente exibindo imagens de paisagens deslumbrantes, monumentos icônicos e maravilhas naturais de diversas partes do mundo.
 A navegação intuitiva permite que os usuários explorem facilmente as imagens, proporcionando uma visão panorâmica de destinos incríveis.
