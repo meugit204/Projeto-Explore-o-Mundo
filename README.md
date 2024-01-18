@@ -1,4 +1,4 @@
-LINK DO SITE DESENVOLVIDO: https://meugit204.github.io/Projeto-Viaje-Mais/
+LINK DO SITE DESENVOLVIDO: https://meugit204.github.io/Projeto-Explore-o-Mundo/
 
 **Título do Projeto: Viaje Mais**
 
